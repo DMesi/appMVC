@@ -1,0 +1,15 @@
+d:\Data\mes7456\Desktop\zadatakWM\StorageServiceLibrary\bin\Debug\net5.0\StorageServiceLibrary.deps.json
+d:\Data\mes7456\Desktop\zadatakWM\StorageServiceLibrary\bin\Debug\net5.0\StorageServiceLibrary.runtimeconfig.json
+d:\Data\mes7456\Desktop\zadatakWM\StorageServiceLibrary\bin\Debug\net5.0\StorageServiceLibrary.runtimeconfig.dev.json
+d:\Data\mes7456\Desktop\zadatakWM\StorageServiceLibrary\bin\Debug\net5.0\StorageServiceLibrary.dll
+d:\Data\mes7456\Desktop\zadatakWM\StorageServiceLibrary\bin\Debug\net5.0\ref\StorageServiceLibrary.dll
+d:\Data\mes7456\Desktop\zadatakWM\StorageServiceLibrary\bin\Debug\net5.0\StorageServiceLibrary.pdb
+d:\Data\mes7456\Desktop\zadatakWM\StorageServiceLibrary\obj\Debug\net5.0\StorageServiceLibrary.csproj.AssemblyReference.cache
+d:\Data\mes7456\Desktop\zadatakWM\StorageServiceLibrary\obj\Debug\net5.0\StorageServiceLibrary.GeneratedMSBuildEditorConfig.editorconfig
+d:\Data\mes7456\Desktop\zadatakWM\StorageServiceLibrary\obj\Debug\net5.0\StorageServiceLibrary.AssemblyInfoInputs.cache
+d:\Data\mes7456\Desktop\zadatakWM\StorageServiceLibrary\obj\Debug\net5.0\StorageServiceLibrary.AssemblyInfo.cs
+d:\Data\mes7456\Desktop\zadatakWM\StorageServiceLibrary\obj\Debug\net5.0\StorageServiceLibrary.csproj.CoreCompileInputs.cache
+d:\Data\mes7456\Desktop\zadatakWM\StorageServiceLibrary\obj\Debug\net5.0\StorageServiceLibrary.dll
+d:\Data\mes7456\Desktop\zadatakWM\StorageServiceLibrary\obj\Debug\net5.0\ref\StorageServiceLibrary.dll
+d:\Data\mes7456\Desktop\zadatakWM\StorageServiceLibrary\obj\Debug\net5.0\StorageServiceLibrary.pdb
+d:\Data\mes7456\Desktop\zadatakWM\StorageServiceLibrary\obj\Debug\net5.0\StorageServiceLibrary.genruntimeconfig.cache

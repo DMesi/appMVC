@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CiDpBuR6zd7vdq1dEeT46vkAlws/LGv59BOWDLxEjs1S3N6Dd295zJHwGvyo16IGNgAEfglNtL4nVDu1J9Yi8w==",
+  "dgSpecHash": "ipNNTjPs+x/Y4VP/ikCHZcmrKki6o7QkvaecrdhF7z8+vtq4aADNhnPP//LX6ShSAh3EOQOfBSaMz4P3Gzw8jQ==",
   "success": true,
-  "projectFilePath": "d:\\data\\mes7456\\Desktop\\wm-pocetak\\prakticni_zadatak_wm\\prakticni_zadatak_wm\\prakticni_zadatak_wm.csproj",
+  "projectFilePath": "d:\\data\\mes7456\\Desktop\\zadatakWM\\prakticni_zadatak_wm\\prakticni_zadatak_wm.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mes7456\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\mes7456\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

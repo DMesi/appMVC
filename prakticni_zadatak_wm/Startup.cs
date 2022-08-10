@@ -8,6 +8,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using StorageServiceLibrary.Model;
 
 
 namespace prakticni_zadatak_wm
@@ -25,7 +26,7 @@ namespace prakticni_zadatak_wm
         public void ConfigureServices(IServiceCollection services)
         {
 
-        
+            services.AddRepository();
 
             services.AddControllersWithViews();
         }
