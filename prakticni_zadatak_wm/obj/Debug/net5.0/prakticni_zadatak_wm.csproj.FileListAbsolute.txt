@@ -212,3 +212,9 @@ d:\data\mes7456\Desktop\zadatakWM\prakticni_zadatak_wm\obj\Debug\net5.0\prakticn
 d:\data\mes7456\Desktop\zadatakWM\prakticni_zadatak_wm\obj\Debug\net5.0\prakticni_zadatak_wm.genruntimeconfig.cache
 d:\data\mes7456\Desktop\zadatakWM\prakticni_zadatak_wm\bin\Debug\net5.0\StorageServiceLibrary.dll
 d:\data\mes7456\Desktop\zadatakWM\prakticni_zadatak_wm\bin\Debug\net5.0\StorageServiceLibrary.pdb
+d:\data\mes7456\Desktop\zadatakWM\prakticni_zadatak_wm\bin\Debug\net5.0\AutoMapper.dll
+d:\data\mes7456\Desktop\zadatakWM\prakticni_zadatak_wm\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+d:\data\mes7456\Desktop\zadatakWM\prakticni_zadatak_wm\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+d:\data\mes7456\Desktop\zadatakWM\prakticni_zadatak_wm\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+d:\data\mes7456\Desktop\zadatakWM\prakticni_zadatak_wm\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+d:\data\mes7456\Desktop\zadatakWM\prakticni_zadatak_wm\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll

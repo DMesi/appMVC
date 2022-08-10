@@ -5,7 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using StorageServiceLibrary.Model;
+using StorageServiceLibrary.IRepository;
+using StorageServiceLibrary.Repository;
+using StorageServiceLibrary.Dto;
 
 
 namespace StorageServiceLibrary.Model
@@ -14,7 +16,11 @@ namespace StorageServiceLibrary.Model
     {
         public static IServiceCollection AddRepository(this IServiceCollection services)
         {
-          
+
+            services.AddTransient<IUnitOfWork, UnitOfWork>();
+
+            services.AddAutoMapper(typeof(MapperInitilizer));
+
             services.AddDbContext<App_Data_Base>(opt => opt
                 .UseSqlServer("server=(LocalDb)\\MSSQLLocalDB; database = prakticni_zadatak_baza_WM ;Integrated Security=True"));
 
