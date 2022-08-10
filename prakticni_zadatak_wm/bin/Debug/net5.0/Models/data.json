@@ -1,0 +1,29 @@
+[
+  {
+    "Id": 1,
+    "Naziv": "DELL Monitor 24",
+    "Opis": "EAN:5397184409336 <br/> Dijagonala:23.8'' <br/>Tip panela:IPS <br/>Rezolucija:1920 x 1080 Full HD <br/>Vreme odziva:4ms <br/>Odnos stranica:16 : 9 <br/>Osvežavanje:75Hz ...",
+    "Kategorija": "Monitor",
+    "Proizvodjac": "DELL",
+    "Dobavljac": "ACME",
+    "Cena": 21999
+  },
+  {
+    "Id": 2,
+    "Naziv": "ASUS Kućište ROG Z11",
+    "Opis": "EAN:4718017759526 <br/>Tip:Mini Tower <br/>Kompatibilnost:Mini-ITX, Mini-DTX <br/>Napajanje:Bez napajanja <br/>Boja:Crna",
+    "Kategorija": "Kuciste",
+    "Proizvodjac": "ASUS",
+    "Dobavljac": "ACME",
+    "Cena": 20999
+  },
+  {
+    "Id": 3,
+    "Naziv": "DELL Vostro5625 - NOT19638",
+    "Opis": "EAN:5290322196382 <br/>Model procesora:AMD Ryzen 7 5825U do 4.5GHz  <br/>Dijagonala ekrana:16''  <br/>Tip grafičke karte:Integrisana Radeon™ RX Vega 8  <br/>RAM (memorija):16GB  <br/>HDD SSD:512GB SSD",
+    "Kategorija": "Laptop",
+    "Proizvodjac": "DELL",
+    "Dobavljac": "GIGATRON",
+    "Cena": 20999
+  }
+   ]

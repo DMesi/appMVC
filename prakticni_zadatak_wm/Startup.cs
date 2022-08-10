@@ -55,7 +55,7 @@ namespace prakticni_zadatak_wm
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Proizvod}/{action=Index}/{id?}");
             });
         }
     }

@@ -1,0 +1,73 @@
+﻿@model IEnumerable<StorageServiceLibrary.Dto.ProizvodDTO>
+
+<h4>PRIKAZ PROIZVODA IZ BAZE</h4>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Naziv)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Opis)
+        </th>
+        <th>
+            Kategorija
+        </th>
+        <th>
+            Proizvođač
+        </th>
+        <th>
+            Dobavljač
+        </th>
+        <th>
+            Cena
+        </th>
+        <th></th>
+    </tr>
+
+
+    @if (Model != null && Model.Count() > 0)
+    {
+        foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Naziv)
+                </td>
+                <td>
+
+                    @Html.Raw(item.Opis)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Kategorija.Naziv)
+
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Proizvodjac.Naziv)
+
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.Dobavljac.Naziv)
+
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Cena)
+                </td>
+
+            </tr>
+
+        }
+    }
+    else
+    {
+        <td colspan="4" class="text-center">
+            <b>Nema podataka. Za migraciju:</b><br />
+
+            add-migration MyMigration -Context App_Data_Base <br />
+            update-database -Context App_Data_Base
+
+        </td>
+
+    }
+</table>   
