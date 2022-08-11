@@ -1,0 +1,77 @@
+﻿@model IEnumerable<StorageServiceLibrary.Dto.ProizvodDTO>
+
+<h4>UNOS I IZMENE</h4>
+<p style="text-align:right;margin-right:20px;">
+    <a class="btn btn-outline-primary" asp-action="AddOrEdit">Unos novog proizvoda</a>
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Naziv)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Opis)
+        </th>
+        <th>
+            Kategorija
+        </th>
+        <th>
+            Proizvođač
+        </th>
+        <th>
+            Dobavljač
+        </th>
+        <th>
+            Cena
+        </th>
+        <th></th>
+    </tr>
+
+
+    @if (Model != null && Model.Count() > 0)
+    {
+        foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Naziv)
+                </td>
+                <td>
+
+                    @Html.Raw(item.Opis)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Kategorija.Naziv)
+
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Proizvodjac.Naziv)
+
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.Dobavljac.Naziv)
+
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Cena)
+                </td>
+                <td class="text-center">
+                    <a asp-action="AddOrEdit" class="btn btn-success" asp-route-proizvodId="@item.Id">Izmeni</a>
+                </td>
+            </tr>
+
+        }
+    }
+    else
+    {
+        <td colspan="4" class="text-center">
+            <b>Nema baze podataka - za migraciju:</b><br />
+
+          *  add-migration MyMigration -Context App_Data_Base <br />
+          *  update-database -Context App_Data_Base
+
+        </td>
+
+    }
+</table>   
