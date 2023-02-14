@@ -19,10 +19,9 @@
 
     <div class="form-group">
         <label asp-for="Opis" class="control-label"></label>
-        <textarea asp-for="Opis" class="form-control" rows="6" cols="15" ></textarea>
+        <textarea asp-for="Opis" class="form-control" rows="6" cols="15"></textarea>
         <span asp-validation-for="Opis" class="text-danger"></span>
     </div>
-
 
     <div class="form-group">
         <label asp-for="Kategorija" class="control-label"></label>
@@ -31,7 +30,6 @@
         </select>
         <span asp-validation-for="Id_kategorija" class="text-danger"></span>
     </div>
-
 
     <div class="form-group">
         <label asp-for="Proizvodjac" class="control-label"></label>
@@ -55,13 +53,17 @@
         <span asp-validation-for="Cena" class="text-danger"></span>
     </div>
 
-
-
-
-
     <div class="form-group">
         <input class="btn btn-primary" type="submit" value="Snimi" />
-        <a class="btn btn-danger" asp-action="Index">Nazad</a>
+
+        @if (@ViewBag.IsEdit)
+        {
+           
+            <a href="@Url.Action("Brisi", "Izmene", new {id = Model.Id})" class="btn btn-danger">Brisi</a>
+
+        }
+
+        <a class="btn btn-info" asp-action="Index">Nazad</a>
     </div>
 
 </form>

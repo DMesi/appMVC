@@ -46,5 +46,7 @@ namespace StorageServiceLibrary.Dto
         [Required(ErrorMessage = "Obavezno polje, unesite cenu!")]
         [Column(TypeName = "decimal(18,4)")]
         public decimal Cena { get; set; }
+
+
     }
 }

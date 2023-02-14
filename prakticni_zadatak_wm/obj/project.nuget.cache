@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QlGsKsX1fwhvEiUrXAZhhv968A7meFSR+VlAvqUmm8p9n3UHgBdyugyqVWwRRjB+FA125pmfQWxTVXGl37hhPQ==",
+  "dgSpecHash": "j6rfRpnzsw9M/OTOHPCOqUDGIMNEi1TZ9ariEgPUadhb06YgftsB5VOu2lQefanDW1S3m7NfSU9SPh2026KLZg==",
   "success": true,
-  "projectFilePath": "d:\\data\\mes7456\\Desktop\\zadatakWM\\prakticni_zadatak_wm\\prakticni_zadatak_wm.csproj",
+  "projectFilePath": "d:\\data\\mes7456\\Desktop\\mvcwm\\appMVC\\prakticni_zadatak_wm\\prakticni_zadatak_wm.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mes7456\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\mes7456\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

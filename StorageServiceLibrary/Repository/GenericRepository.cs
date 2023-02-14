@@ -78,7 +78,13 @@ namespace StorageServiceLibrary.Repository
         
         }
 
-       
+        public async Task Delete(int id)
+        {
+            var entity = await _db.FindAsync(id);
+            _db.Remove(entity);
+
+        }
+
     }
 
 

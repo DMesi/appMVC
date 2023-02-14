@@ -28,7 +28,8 @@ namespace StorageServiceLibrary.Model
         public int Id_Dobavljac { get; set; }
 
         [Column(TypeName = "decimal(18,4)")]
-        public decimal Cena { get; set; } 
+        public decimal Cena { get; set; }
+
 
     }
 }

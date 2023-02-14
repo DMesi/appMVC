@@ -20,7 +20,9 @@ namespace StorageServiceLibrary.IRepository
         Task Insert(T entity);
 
         void Update(T entity);
-    
+
+        Task Delete(int id);
+
 
     }
 

@@ -5911,11 +5911,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\data\\mes7456\\Desktop\\zadatakWM\\StorageServiceLibrary\\StorageServiceLibrary.csproj",
+      "projectUniqueName": "d:\\data\\mes7456\\Desktop\\mvcwm\\appMVC\\StorageServiceLibrary\\StorageServiceLibrary.csproj",
       "projectName": "StorageServiceLibrary",
-      "projectPath": "d:\\data\\mes7456\\Desktop\\zadatakWM\\StorageServiceLibrary\\StorageServiceLibrary.csproj",
+      "projectPath": "d:\\data\\mes7456\\Desktop\\mvcwm\\appMVC\\StorageServiceLibrary\\StorageServiceLibrary.csproj",
       "packagesPath": "C:\\Users\\mes7456\\.nuget\\packages\\",
-      "outputPath": "d:\\data\\mes7456\\Desktop\\zadatakWM\\StorageServiceLibrary\\obj\\",
+      "outputPath": "d:\\data\\mes7456\\Desktop\\mvcwm\\appMVC\\StorageServiceLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"

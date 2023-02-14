@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "V4lSASlwCfV6Nn/udZAjO/FEGaUXRT5BmsyXha+hTAwqEt0X14aqPKkTSduhFDrX/MIu6WilbhKbW1PNw4zTqg==",
+  "dgSpecHash": "7wGNgsXU/bZxrgZqwNkkSLq7eTKPMjtmRBVFfGY0ikAnn4Bx8KG4mvE/GfpBg2wa+9mVZCyiIslTFcBhTi2Buw==",
   "success": true,
-  "projectFilePath": "d:\\data\\mes7456\\Desktop\\zadatakWM\\StorageServiceLibrary\\StorageServiceLibrary.csproj",
+  "projectFilePath": "d:\\data\\mes7456\\Desktop\\mvcwm\\appMVC\\StorageServiceLibrary\\StorageServiceLibrary.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mes7456\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\mes7456\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

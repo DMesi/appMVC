@@ -5931,11 +5931,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\data\\mes7456\\Desktop\\zadatakWM\\prakticni_zadatak_wm\\prakticni_zadatak_wm.csproj",
+      "projectUniqueName": "d:\\data\\mes7456\\Desktop\\mvcwm\\appMVC\\prakticni_zadatak_wm\\prakticni_zadatak_wm.csproj",
       "projectName": "prakticni_zadatak_wm",
-      "projectPath": "d:\\data\\mes7456\\Desktop\\zadatakWM\\prakticni_zadatak_wm\\prakticni_zadatak_wm.csproj",
+      "projectPath": "d:\\data\\mes7456\\Desktop\\mvcwm\\appMVC\\prakticni_zadatak_wm\\prakticni_zadatak_wm.csproj",
       "packagesPath": "C:\\Users\\mes7456\\.nuget\\packages\\",
-      "outputPath": "d:\\data\\mes7456\\Desktop\\zadatakWM\\prakticni_zadatak_wm\\obj\\",
+      "outputPath": "d:\\data\\mes7456\\Desktop\\mvcwm\\appMVC\\prakticni_zadatak_wm\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
@@ -5956,8 +5956,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "d:\\data\\mes7456\\Desktop\\zadatakWM\\StorageServiceLibrary\\StorageServiceLibrary.csproj": {
-              "projectPath": "d:\\data\\mes7456\\Desktop\\zadatakWM\\StorageServiceLibrary\\StorageServiceLibrary.csproj"
+            "d:\\data\\mes7456\\Desktop\\mvcwm\\appMVC\\StorageServiceLibrary\\StorageServiceLibrary.csproj": {
+              "projectPath": "d:\\data\\mes7456\\Desktop\\mvcwm\\appMVC\\StorageServiceLibrary\\StorageServiceLibrary.csproj"
             }
           }
         }

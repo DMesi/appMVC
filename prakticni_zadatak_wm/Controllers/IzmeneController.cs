@@ -130,5 +130,19 @@ namespace prakticni_zadatak_wm.Controllers
             return View();
         }
 
+
+        [HttpGet]
+
+        public async Task<IActionResult> Brisi (int id)
+        {
+
+
+            await _unitOfWork.Proizvodi.Delete(id);
+            await _unitOfWork.Save();
+
+            return RedirectToAction(nameof(Index));
+
+        }
+
     }
 }
